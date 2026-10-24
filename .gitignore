@@ -1,0 +1,27 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Next.js build output
+/.next/
+/out/
+
+# Production
+/build
+
+# Local PostgreSQL data cluster (if run locally in workspace)
+/pgdata/
+/data/pglite-cluster/
+*.log
+
+# Environment Variables & Secrets (NEVER commit secrets)
+.env
+.env.*
+!.env.example
+
+# Misc
+.DS_Store
+*.pem
+next-env.d.ts
+*.tsbuildinfo
